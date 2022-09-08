@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html leng="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+    <body>
+      <div class="container">
+        <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thanks for sharing your opinion</p>
+        </header>
+
+
+        <form id="survey-form">
+           <div class="data">
+            <label for="name-label">Name 
+            <input 
+            id="name-label" 
+            type="text" 
+            placeholder="Your name"
+            required/></label>
+
+            <label for="email-label">Email 
+            <input 
+            id="email-label" 
+            type="email" 
+            placeholder="Your email"
+            required/></label>
+
+            <label for="number-label">Age 
+            <input id="number-label" 
+            type="number"
+            min="11" max="120" 
+            placeholder="Age"
+            required/></label> 
+            
+            <label for="user-label">Type of user
+            <select id="user-label">
+              <option id="dropdown" value="1">Visitor</option>
+              <option id="dropdown" value="2">Registered</option>
+            </select> </label>
+
+            <label id="gender">Your gender
+              <label><input type="radio" id="male" class="inline"/>Male</label>  
+              <label><input type="radio" id="female" class="inline"/>Female</label>  
+            
+            </label>
+            
+           </div>
+           
+
+           <div id="interest">
+             <input type="checkbox" id="">
+
+           </div>
+
+
+        </form>
+      </div>  
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
